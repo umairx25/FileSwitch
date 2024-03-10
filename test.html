@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Converter</title>
+</head>
+<body>
+    <h1>File Converter</h1>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <label for="input_file">Select file:</label>
+        <input type="file" id="input_file" name="input_file" accept=".docx, .pdf"><br><br>
+
+        <label for="output_format">Enter output format:</label>
+        <input type="text" id="output_format" name="output_format" placeholder="Enter output format"><br><br>
+
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
